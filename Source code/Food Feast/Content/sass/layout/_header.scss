@@ -1,0 +1,23 @@
+.header{
+    position: relative;
+    grid-column: start/end;
+    height: 100%;
+
+    
+
+    &__text-box{
+       
+    //background-image: linear-gradient(to right,rgba(black,.9),rgba(#5d001E,.5));
+     background-image: linear-gradient(to right,rgba(black,.8),rgba(black,.1));
+  
+    height: 100%;
+    
+   
+    }
+
+    &-contact{
+        background-image: url(../../media/Images/gallery4.jpg);
+        background-image: linear-gradient(120deg , var(--color-quinary) , var(--color-tertiary) , var(--color-quaterny)) ;
+        background-size: cover;
+    }
+}

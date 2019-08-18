@@ -1,0 +1,155 @@
+.heading-primary
+{
+    display: block;
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+    font-weight: 300;
+   
+
+    &--responsive
+    {
+        font-size: 3.5rem;
+        
+    }
+    &--white
+    {
+        color: var(--color-secondary);
+    }
+    &__sub{
+        display: block;
+        padding:.5rem 3rem;
+        position: relative;
+        
+        &:hover{
+
+            &::after{
+                width: 100%;
+            }
+        }
+
+        &::after{
+            z-index: -1;
+            display: block;
+            content: '';
+            position: absolute;
+            height: 100%;
+            width:2%;
+            top: 0;
+            background-color:rgba(#5d001E,1);
+            left: 0;
+            transition:all .2s ease-out;
+        }
+
+    }
+    
+}
+.heading-secondary
+{
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
+    font-weight: 300;
+
+    color: var(--color-primary);
+
+    &--white{
+        color: var(--color-secondary);
+    }
+
+    &--responsive
+    {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    &--heavy{
+        font-size: 3rem;
+        font-family: var(--font-tertiary);
+        color: var(--color-quaterny);
+    }
+   
+}
+.heading-tertiary
+{
+    
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--font-secondary);
+
+    &--responsive{
+        font-size: 2rem;
+    }
+    &--white{
+        color: var(--color-secondary);
+    }
+}
+
+.heading-quaterny{
+    font-size: 1.5rem;
+    font-family: var(--font-secondary);
+    color: var(--color-quaterny);
+}
+
+.paragraph
+{
+    font-size: 1.2rem;
+
+  color: var(--color-primary);
+  
+  &--white{
+    color: var(--color-secondary);
+
+    
+}
+&--heavy{
+    font-size: 1.5vw;
+    color: (--color-quinary);
+}
+}
+
+
+
+.font-{
+    &primary{
+        font-family: var(--font-primary) !important;
+    }
+
+    &secondary{
+        font-family: var(--font-secondary) !important;
+    }
+
+    &tertairy{
+        font-family: var(--font-tertairy) !important;
+    }
+
+    &quaterny{
+        font-family: var(--font-quaterny) !important;
+    }
+}
+
+.text{
+    &_primary{
+        color: var(--color-primary) !important;
+    }
+
+    &_secondary{
+        color: var(--color-secondary) !important;
+    }
+
+    &_tertiary{
+        color: var(--color-tertiary) !important;
+    }
+
+    &_quaterny{
+        color: var(--color-quaterny) !important;
+    }
+    
+}
+
+.dark-overlay
+{
+filter: brightness(65%);
+}
+
