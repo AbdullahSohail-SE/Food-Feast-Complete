@@ -1,17 +1,53 @@
 
+## Table of Contents
+1. [Purpose]()
+2. [Project Video]()
+3. [Process Model]()
+4. [Entity Relationship Diagram]()
+5. [Functional and Business Requirements]()
+6. [Installation]()
+7. [Gant Chart]()
+
+### Purpose
+Food Feast.com is a simple website made for a restaurant named Food Feast providing the customers with the basic facility to order food online without any hassle. 
+
+### Project Video
+
+[<img src="https://github.com/AbdullahSohail-SE/Food-Feast-Complete/blob/gh-pages/poster.PNG">](https://abdullahsohail-se.github.io/Food-Feast-Complete/)
+
+### Process Model
+The process model adopted for this project was simple waterfall model for these obvious reasons:
+1.	The project requirements were not so complex and well defined at the beginning
+2.	There was little chance of changing given requirements so other evolutionary process models were discarded.
+3.	The model is simple and convenient for smaller time frames.
+
+### Entity Relationship Diagram
+In the modeling phase the model of the website is made by keeping use case diagrams relevant also database is designed and first conceptual entity relationship diagram is made followed by logical and then physical ERD.
+
+![ERD](https://github.com/AbdullahSohail-SE/Food-Feast-Complete/blob/master/About/ERD.png)
+
+### Functional and Business Requirements
+
+#### Functional Requirements
+1.	Customer to be able to sign up.
+2.	Customer to be able to log in before making a purchase.
+3.	Customer to be able to filter the dishes according to category such as Chinese, desi and fast-food etc. 
+4.	Customer to be able to add to cart the dishes he wants to order.
+5.	Customer to be able to view the cart and remove the items he wants to.
+6.	Customer to be able to adjust the quantity of items he wants to order.
+
+#### Business Requirements
+The requirements from the perspective of restaurant owner are:
+1.	Offer convenience to its regular customers to order from their website.
+2.	Website aesthetics to attract new customers.
+3.	Allow people to find their address and location easily.
 
 
-### Home Page
-![1- Home](https://user-images.githubusercontent.com/48921961/63762396-22941080-c8dc-11e9-8602-0fc4a24429e5.png)
+### Installation
+Simply clone the project localy and run the SQL scripts provided in Database Backup folder and configure web.config file string connection accordingly and you are all set! 
 
-### Login Page
-![2- Login](https://user-images.githubusercontent.com/48921961/63762417-2c1d7880-c8dc-11e9-8e5b-e3c2124df43d.png)
+### Gant Chart
+Gant chart simply showing all the SDLC processes with their timeframe for this project
 
-### Menu Page
-![3- Menu](https://user-images.githubusercontent.com/48921961/63762421-2d4ea580-c8dc-11e9-8278-e1cb5876142f.png)
+![Gant Chart](https://github.com/AbdullahSohail-SE/Food-Feast-Complete/blob/master/About/GantChart.png)
 
-### Cart Page
-![4- Cart](https://user-images.githubusercontent.com/48921961/63762423-2e7fd280-c8dc-11e9-9f9a-c9589ef74094.png)
-
-### Checkout Page
-![5- Checkout](https://user-images.githubusercontent.com/48921961/63762425-2fb0ff80-c8dc-11e9-9ddc-7986fc8bc6ca.png)
