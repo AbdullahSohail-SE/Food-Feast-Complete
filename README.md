@@ -1,12 +1,12 @@
 
 ## Table of Contents
-1. [Purpose]()
-2. [Project Video]()
-3. [Process Model]()
-4. [Entity Relationship Diagram]()
-5. [Functional and Business Requirements]()
-6. [Installation]()
-7. [Gant Chart]()
+1. [Purpose](https://github.com/AbdullahSohail-SE/Food-Feast-Complete#purpose)
+2. [Project Video](https://github.com/AbdullahSohail-SE/Food-Feast-Complete#project-video)
+3. [Process Model](https://github.com/AbdullahSohail-SE/Food-Feast-Complete#process-model)
+4. [Entity Relationship Diagram](https://github.com/AbdullahSohail-SE/Food-Feast-Complete#entity-relationship-diagram)
+5. [Functional and Business Requirements](https://github.com/AbdullahSohail-SE/Food-Feast-Complete#functional-and-business-requirements)
+6. [Installation](https://github.com/AbdullahSohail-SE/Food-Feast-Complete#installation)
+7. [Gant Chart](https://github.com/AbdullahSohail-SE/Food-Feast-Complete#gant-chart)
 
 ### Purpose
 Food Feast.com is a simple website made for a restaurant named Food Feast providing the customers with the basic facility to order food online without any hassle. 
